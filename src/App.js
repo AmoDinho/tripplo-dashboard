@@ -1,11 +1,11 @@
 import React from 'react';
 
-import HeadingOne from './components/typography/HeadingOne'
+import SideNav from './components/navigation/SideNav'
 
 function App() {
   return (
     <div className="App">
-      <HeadingOne>Hello</HeadingOne>
+      <SideNav />
     </div>
   );
 }
