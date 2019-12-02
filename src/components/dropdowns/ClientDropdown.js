@@ -19,12 +19,14 @@ Add correct background colour
 const ClientDropdown = ({ className, children, ...props }) => {
     return (
         <>
-            <div>
-                <button className='flex flex-row  p-4 w-3/4 bg-gray-100 rounded'>
-                    <img src={CorpImg} alt='Dropdown-option' className="w-2/4 h-2/4" /> <BodyText className="mb-2 ml-3">Interssol</BodyText> <img className="ml-10" src={Chevron} alt='Chevron' />
-                </button>
 
-            </div>
+            <button
+                aria-label='dropdown-select'
+                className='flex flex-row  p-4 w-3/4 bg-gray-100 rounded'>
+                <img src={CorpImg} alt='Dropdown-option' className="w-2/4 h-2/4" /> <BodyText className="mb-2 ml-3">Interssol</BodyText> <img className="ml-10" src={Chevron} alt='Chevron' />
+            </button>
+
+
 
 
         </>
