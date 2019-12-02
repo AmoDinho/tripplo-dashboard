@@ -20,19 +20,19 @@ const SideNav = () => {
                         <li className="flex flex-row">
                             <img src={OrgIcon} alt="org icon" className="mr-2" />    <BodyText className="text-white">My orginization</BodyText>
                         </li>
-                        <li className="flex flex-row">
+                        <li className="flex flex-row mt-3">
                             <img src={OrgIcon} alt="org icon" className="mr-2" />    <BodyText className="text-white">Fleet</BodyText>
                         </li>
-                        <li className="flex flex-row">
+                        <li className="flex flex-row mt-3">
                             <img src={OrgIcon} alt="org icon" className="mr-2" />    <BodyText className="text-white">Trip planning</BodyText>
                         </li>
-                        <li className="flex flex-row">
+                        <li className="flex flex-row mt-3">
                             <img src={OrgIcon} alt="org icon" className="mr-2" />    <BodyText className="text-white">Trip tracking</BodyText>
                         </li>
-                        <li className="flex flex-row">
+                        <li className="flex flex-row mt-3">
                             <img src={OrgIcon} alt="org icon" className="mr-2" />    <BodyText className="text-white">Profit analysis</BodyText>
                         </li>
-                        <li className="flex flex-row">
+                        <li className="flex flex-row mt-3">
                             <img src={OrgIcon} alt="org icon" className="mr-2" />    <BodyText className="text-white">Biling</BodyText>
                         </li>
                     </ul>
