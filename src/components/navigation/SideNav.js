@@ -20,36 +20,38 @@ const SideNav = () => {
                 <div className="p-5"><img src={TripploLogo} className="w-1/2 " alt="tripplo logo" /></div>
                 {/* customer dropdown*/}
                 <div>
-                    <ClientDropdown />
+                    <ClientDropdown>
+                        <option> <Interssol</option>
+                    </ClientDropdown>
                 </div>
-                {/* Nav options*/}
-                <div>
-                    <ul >
-                        <li className="flex flex-row p-2">
-                            <img src={OrgIcon} alt="org icon" className="mr-2" />    <BodyText className="text-white">My orginization</BodyText>
-                        </li>
-                        <li >
-                            <div className="flex flex-row mt-3 border-l-4 block p-2 ">
-                                <img src={TruckIcon} alt="org icon" className="mr-2 " />    <BodyText className="text-white ">Fleet</BodyText>
-                            </div>
-                        </li>
-                        <li className="flex flex-row mt-3 p-2">
-                            <img src={DateIcon} alt="org icon" className="mr-2" />    <BodyText className="text-white">Trip planning</BodyText>
-                        </li>
-                        <li className="flex flex-row mt-3 p-2">
-                            <img src={TrackingIcon} alt="org icon" className="mr-2" />    <BodyText className="text-white">Trip tracking</BodyText>
-                        </li>
-                        <li className="flex flex-row mt-3 p-2">
-                            <img src={ProfitIcon} alt="org icon" className="mr-2" />    <BodyText className="text-white">Profit analysis</BodyText>
-                        </li>
-                        <li className="flex flex-row mt-3 p-2">
-                            <img src={CardIcon} alt="org icon" className="mr-2" />    <BodyText className="text-white">Biling</BodyText>
-                        </li>
-                    </ul>
+                    {/* Nav options*/}
+                    <div>
+                        <ul >
+                            <li className="flex flex-row p-2">
+                                <img src={OrgIcon} alt="org icon" className="mr-2" />    <BodyText className="text-white">My orginization</BodyText>
+                            </li>
+                            <li >
+                                <div className="flex flex-row mt-3 border-l-4 block p-2 ">
+                                    <img src={TruckIcon} alt="org icon" className="mr-2 " />    <BodyText className="text-white ">Fleet</BodyText>
+                                </div>
+                            </li>
+                            <li className="flex flex-row mt-3 p-2">
+                                <img src={DateIcon} alt="org icon" className="mr-2" />    <BodyText className="text-white">Trip planning</BodyText>
+                            </li>
+                            <li className="flex flex-row mt-3 p-2">
+                                <img src={TrackingIcon} alt="org icon" className="mr-2" />    <BodyText className="text-white">Trip tracking</BodyText>
+                            </li>
+                            <li className="flex flex-row mt-3 p-2">
+                                <img src={ProfitIcon} alt="org icon" className="mr-2" />    <BodyText className="text-white">Profit analysis</BodyText>
+                            </li>
+                            <li className="flex flex-row mt-3 p-2">
+                                <img src={CardIcon} alt="org icon" className="mr-2" />    <BodyText className="text-white">Biling</BodyText>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
         </>
-    )
-}
-
+            )
+        }
+        
 export default SideNav 
