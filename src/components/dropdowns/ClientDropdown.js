@@ -5,14 +5,8 @@ import BodyText from '../typography/BodyText'
 /*
 
 To-Do:
+https://codepen.io/fsanggang/pen/ZOepzE
 
-<select
-                aria-label='dropdown-select'
-                className={`${className} p-4 w-3/4 bg-gray-100 rounded`}
-                {...props}
-            >
-                {children}
-            </select>
 
 Add correct background colour
 */
