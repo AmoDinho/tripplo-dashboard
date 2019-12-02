@@ -15,24 +15,26 @@ const SideNav = () => {
                 {/* customer dropdown*/}
 
                 {/* Nav options*/}
-                <div className="p-4">
+                <div>
                     <ul >
-                        <li className="flex flex-row">
+                        <li className="flex flex-row p-2">
                             <img src={OrgIcon} alt="org icon" className="mr-2" />    <BodyText className="text-white">My orginization</BodyText>
                         </li>
-                        <li className="flex flex-row mt-3">
-                            <img src={OrgIcon} alt="org icon" className="mr-2" />    <BodyText className="text-white">Fleet</BodyText>
+                        <li >
+                            <div className="flex flex-row mt-3 border-l-4 block p-2">
+                                <img src={OrgIcon} alt="org icon" className="mr-2 " />    <BodyText className="text-white ">Fleet</BodyText>
+                            </div>
                         </li>
-                        <li className="flex flex-row mt-3">
+                        <li className="flex flex-row mt-3 p-2">
                             <img src={OrgIcon} alt="org icon" className="mr-2" />    <BodyText className="text-white">Trip planning</BodyText>
                         </li>
-                        <li className="flex flex-row mt-3">
+                        <li className="flex flex-row mt-3 p-2">
                             <img src={OrgIcon} alt="org icon" className="mr-2" />    <BodyText className="text-white">Trip tracking</BodyText>
                         </li>
-                        <li className="flex flex-row mt-3">
+                        <li className="flex flex-row mt-3 p-2">
                             <img src={OrgIcon} alt="org icon" className="mr-2" />    <BodyText className="text-white">Profit analysis</BodyText>
                         </li>
-                        <li className="flex flex-row mt-3">
+                        <li className="flex flex-row mt-3 p-2">
                             <img src={OrgIcon} alt="org icon" className="mr-2" />    <BodyText className="text-white">Biling</BodyText>
                         </li>
                     </ul>
