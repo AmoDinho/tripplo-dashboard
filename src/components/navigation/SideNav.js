@@ -1,6 +1,6 @@
 import React from 'react'
 import TripploLogo from '../../assets/tripplo-logo-white.png'
-
+import BodyText from '../typography/BodyText'
 const SideNav = () => {
     return (
         <>
@@ -14,6 +14,13 @@ const SideNav = () => {
                 {/* customer dropdown*/}
 
                 {/* Nav options*/}
+                <div>
+                    <ul >
+                        <li>
+                            <BodyText>My orginization</BodyText>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </>
     )
