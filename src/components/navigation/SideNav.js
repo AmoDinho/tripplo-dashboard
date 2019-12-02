@@ -21,7 +21,7 @@ const SideNav = () => {
                             <img src={OrgIcon} alt="org icon" className="mr-2" />    <BodyText className="text-white">My orginization</BodyText>
                         </li>
                         <li >
-                            <div className="flex flex-row mt-3 border-l-4 block p-2">
+                            <div className="flex flex-row mt-3 border-l-4 block p-2 ">
                                 <img src={OrgIcon} alt="org icon" className="mr-2 " />    <BodyText className="text-white ">Fleet</BodyText>
                             </div>
                         </li>
