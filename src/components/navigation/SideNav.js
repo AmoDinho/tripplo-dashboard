@@ -1,4 +1,5 @@
 import React from 'react'
+import TripploLogo from '../../assets/tripplo-logo-white.png'
 
 const SideNav = () => {
     return (
@@ -9,6 +10,7 @@ const SideNav = () => {
 
                 {/*Tripplo logo */}
 
+                <div><img src={TripploLogo} alt="tripplo logo" /></div>
                 {/* customer dropdown*/}
 
                 {/* Nav options*/}
