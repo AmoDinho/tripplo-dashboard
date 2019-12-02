@@ -19,16 +19,10 @@ const SideNav = () => {
 
                 <div className="p-5"><img src={TripploLogo} className="w-1/2 " alt="tripplo logo" /></div>
                 {/* customer dropdown*/}
-                <div>
-                    <ClientDropdown>
-                        <option>
-                            <div>
-                                <img src={TripploLogo} className="w-1/2 " alt="tripplo logo" />
-                            </div>
-                            Interssol
+                <div className="ml-2">
+                    <ClientDropdown />
 
-                            </option>
-                    </ClientDropdown>
+
                 </div>
                 {/* Nav options*/}
                 <div>
