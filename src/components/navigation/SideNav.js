@@ -10,7 +10,7 @@ const SideNav = () => {
 
                 {/*Tripplo logo */}
 
-                <div><img src={TripploLogo} alt="tripplo logo" /></div>
+                <div className="p-5"><img src={TripploLogo} className="w-1/2 " alt="tripplo logo" /></div>
                 {/* customer dropdown*/}
 
                 {/* Nav options*/}
