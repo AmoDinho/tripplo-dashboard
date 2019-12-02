@@ -1,6 +1,7 @@
 import React from 'react'
 import TripploLogo from '../../assets/tripplo-logo-white.png'
 import BodyText from '../typography/BodyText'
+import OrgIcon from '../../assets/view_compact.svg'
 const SideNav = () => {
     return (
         <>
@@ -14,10 +15,10 @@ const SideNav = () => {
                 {/* customer dropdown*/}
 
                 {/* Nav options*/}
-                <div>
+                <div className="p-4">
                     <ul >
-                        <li>
-                            <BodyText>My orginization</BodyText>
+                        <li className="flex flex-row">
+                            <img src={OrgIcon} alt="org icon" className="mr-2" />    <BodyText className="text-white">My orginization</BodyText>
                         </li>
                     </ul>
                 </div>
