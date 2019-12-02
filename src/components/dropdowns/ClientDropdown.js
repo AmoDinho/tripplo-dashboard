@@ -1,10 +1,14 @@
 import React from 'react'
 
-const ClientDropdown = () => {
+const ClientDropdown = ({ className, childern, ...props }) => {
     return (
         <>
-            <select>
-
+            <select
+                aria-label='dropdown-select'
+                className={`${className}`}
+                {...props}
+            >
+                {childern}
             </select>
 
         </>
