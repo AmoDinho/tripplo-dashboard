@@ -1,9 +1,9 @@
 import React from 'react'
 
-const BodyText = ({ children }) => {
+const BodyText = ({ className, children, ...props }) => {
     return (
         <>
-            <p className="font-sans text-base">{children}</p>
+            <p {...props} className={`${className} font-sans text-base`}>{children}</p>
         </>
     )
 }
