@@ -1,20 +1,31 @@
 import React from 'react'
+import CorpImg from '../../assets/White_block.svg'
+import Chevron from '../../assets/chevroon_down.svg'
+import BodyText from '../typography/BodyText'
 /*
 
 To-Do:
 
-Add correct background colour
-*/
-const ClientDropdown = ({ className, childern, ...props }) => {
-    return (
-        <>
-            <select
+<select
                 aria-label='dropdown-select'
-                className={`${className} p-4 w-3/4  rounded`}
+                className={`${className} p-4 w-3/4 bg-gray-100 rounded`}
                 {...props}
             >
-                {childern}
+                {children}
             </select>
+
+Add correct background colour
+*/
+const ClientDropdown = ({ className, children, ...props }) => {
+    return (
+        <>
+            <div>
+                <button className='flex flex-row  p-4 w-3/4 bg-gray-100 rounded'>
+                    <img src={CorpImg} alt='Dropdown-option' /> <BodyText className="mb-2 ml-3">Interssol</BodyText> <img className="ml-16" src={Chevron} alt='Chevron' />
+                </button>
+
+            </div>
+
 
         </>
     )
