@@ -7,6 +7,7 @@ import DateIcon from '../../assets/date_range.svg'
 import TruckIcon from '../../assets/local_shipping.svg'
 import CardIcon from '../../assets/credit_card.svg'
 import TrackingIcon from '../../assets/pin_drop.svg'
+import ClientDropdown from '../dropdowns/ClientDropdown'
 const SideNav = () => {
     return (
         <>
@@ -18,7 +19,11 @@ const SideNav = () => {
 
                 <div className="p-5"><img src={TripploLogo} className="w-1/2 " alt="tripplo logo" /></div>
                 {/* customer dropdown*/}
+                <div className="ml-2">
+                    <ClientDropdown />
 
+
+                </div>
                 {/* Nav options*/}
                 <div>
                     <ul >
