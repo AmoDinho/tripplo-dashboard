@@ -5,7 +5,7 @@ const ClientDropdown = ({ className, childern, ...props }) => {
         <>
             <select
                 aria-label='dropdown-select'
-                className={`${className}`}
+                className={`${className} p-4 w-3/4 bg-gray-100 rounded`}
                 {...props}
             >
                 {childern}
