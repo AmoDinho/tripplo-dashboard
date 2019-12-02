@@ -240,6 +240,7 @@ module.exports = {
         '"Times New Roman"',
         'Times',
         'serif',
+        'Aileron'
       ],
       mono: [
         'Menlo',
