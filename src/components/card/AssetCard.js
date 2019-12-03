@@ -3,7 +3,7 @@ import HeadingTwo from '../typography/HeadingTwo'
 const AssetCard = ({ assetName, assetColour, assetCount }) => {
     return (
         <>
-            <div className={`bg-blue-${assetColour} w-1/4 h-24 rounded flex justify-between`}>
+            <div className={`bg-blue-${assetColour}  h-24 rounded flex justify-between`}>
                 <HeadingTwo className='text-gray-400 ml-2'>
                     {assetName}
                 </HeadingTwo>
