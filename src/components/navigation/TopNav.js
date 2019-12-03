@@ -29,8 +29,8 @@ margin-bottom: 10px;
                 <SearchBar />
 
 
-                <img src={Grid} alt="grid" />
-                <img src={Bell} alt="bell" />
+                <img src={Grid} className="ml-8 mr-5" alt="grid" />
+                <img src={Bell} className="mr-5" alt="bell" />
 
                 <Avatar src={User} />
 
