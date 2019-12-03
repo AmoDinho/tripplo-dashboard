@@ -1,9 +1,15 @@
 import React from 'react'
-const AssetCard = () => {
+import HeadingTwo from '../typography/HeadingTwo'
+const AssetCard = ({ assetName, assetColour, assetCount }) => {
     return (
         <>
-            <div>
-
+            <div className={`bg-blue-${assetColour} w-1/4 h-24 rounded flex justify-between`}>
+                <HeadingTwo className='text-gray-400 ml-2'>
+                    {assetName}
+                </HeadingTwo>
+                <HeadingTwo className='text-white mr-2'>
+                    {assetCount}
+                </HeadingTwo>
             </div>
         </>
     )
