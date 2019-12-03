@@ -12,7 +12,7 @@ import ClientDropdown from '../dropdowns/ClientDropdown'
 const SideNav = ({ isOpen }) => {
     return (
         <>
-            <div className={isOpen ? 'bg-blue-600 h-screen lg:w-auto ' : 'hidden'}>
+            <div className={isOpen ? 'bg-blue-600 h-screen  lg:w-auto ' : 'hidden'}>
 
                 {/* */}
 

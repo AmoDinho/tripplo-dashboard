@@ -10,11 +10,9 @@ function App() {
   }
   const GridStyles = styled.div`
   display: grid;
-  grid-template-columns: 240px 1fr;
+  grid-template-columns: 250px 1fr;
   grid-template-rows: 50px 1fr ;
-  grid-template-areas:
-  "sidenav header"
-  "sidenav main"
+ 
   
 height: 100vh;
 
@@ -34,7 +32,7 @@ height: 100vh;
 
 
 
-        <TopNav onClick={toggle} isOpen={isOpen} />
+        <TopNav onClick={toggle} />
 
 
 
