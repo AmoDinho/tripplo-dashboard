@@ -5,35 +5,37 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 const AssetTable = () => {
     return (
         <>
-            <div>
-                <div>Truks</div>
-                <diV>Issues</diV>
+            <div className='p-4'>
+                <div className='flex flex-row'>
+                    <div className='bg-blue-700 w-1/12 h-16 rounded-t text-center p-3'>Truks</div>
+                    <diV className='bg-blue-500 w-full h-16 rounded-t p-3 p-3 '>Issues</diV>
+                </div>
+                <Table>
+                    <thead>
+                        <tr>
+                            <th>Truck</th>
+                            <th>Truck details</th>
+                            <th>Driver</th>
+                            <th>Trailer(s)</th>
+                            <th>Status</th>
+                            <th colSpan='2'>Issues</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> VBZ 122 GP</td>
+                            <td> 2005 Frieghtliner Argsoy ISX 530</td>
+                            <td> Lovemore Buzuzi</td>
+                            <td> - </td>
+                            <td> <StatusDropdown /></td>
+                            <td> Review 0</td>
+                            <td> Urgent 0</td>
+                        </tr>
+                    </tbody>
+
+                </Table>
+
             </div>
-            <Table>
-                <thead>
-                    <tr>
-                        <th>Truck</th>
-                        <th>Truck details</th>
-                        <th>Driver</th>
-                        <th>Trailer(s)</th>
-                        <th>Status</th>
-                        <th colSpan="2">Issues</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td> VBZ 122 GP</td>
-                        <td> 2005 Frieghtliner Argsoy ISX 530</td>
-                        <td> Lovemore Buzuzi</td>
-                        <td> - </td>
-                        <td> <StatusDropdown /></td>
-                        <td> Review 0</td>
-                        <td> Urgent 0</td>
-                    </tr>
-                </tbody>
-
-            </Table>
-
         </>
     )
 }
