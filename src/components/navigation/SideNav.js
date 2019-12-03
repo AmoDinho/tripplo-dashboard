@@ -8,6 +8,7 @@ import TruckIcon from '../../assets/local_shipping.svg'
 import CardIcon from '../../assets/credit_card.svg'
 import TrackingIcon from '../../assets/pin_drop.svg'
 import ClientDropdown from '../dropdowns/ClientDropdown'
+
 const SideNav = ({ isOpen }) => {
     return (
         <>
