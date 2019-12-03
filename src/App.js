@@ -34,7 +34,7 @@ height: 100vh;
 
 
 
-        <TopNav onClick={toggle} />
+        <TopNav onClick={toggle} isOpen={isOpen} />
 
 
 
