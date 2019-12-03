@@ -1,5 +1,6 @@
 import React from 'react'
 import Table from 'react-bootstrap/Table'
+import StatusDropdown from '../dropdowns/StatusDropdown'
 import 'bootstrap/dist/css/bootstrap.min.css'
 const AssetTable = () => {
     return (
@@ -25,7 +26,7 @@ const AssetTable = () => {
                         <td> 2005 Frieghtliner Argsoy ISX 530</td>
                         <td> Lovemore Buzuzi</td>
                         <td> - </td>
-                        <td> Active</td>
+                        <td> <StatusDropdown /></td>
                         <td> Review 0</td>
                         <td> Urgent 0</td>
                     </tr>
