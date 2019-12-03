@@ -8,10 +8,11 @@ import TruckIcon from '../../assets/local_shipping.svg'
 import CardIcon from '../../assets/credit_card.svg'
 import TrackingIcon from '../../assets/pin_drop.svg'
 import ClientDropdown from '../dropdowns/ClientDropdown'
-const SideNav = () => {
+
+const SideNav = ({ isOpen }) => {
     return (
         <>
-            <div className="bg-blue-600 h-screen lg:w-1/5">
+            <div className={isOpen ? 'bg-blue-600 h-screen  lg:w-auto ' : 'hidden'}>
 
                 {/* */}
 
