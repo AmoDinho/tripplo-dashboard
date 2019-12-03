@@ -11,7 +11,7 @@ import ClientDropdown from '../dropdowns/ClientDropdown'
 const SideNav = () => {
     return (
         <>
-            <div className="bg-blue-600 h-screen lg:w-auto">
+            <div className="bg-blue-600 h-screen lg:w-auto sm:hidden">
 
                 {/* */}
 
