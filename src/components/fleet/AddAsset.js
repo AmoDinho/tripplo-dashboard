@@ -4,7 +4,7 @@ import HeadingOne from '../typography/HeadingOne'
 const AddAsset = () => {
     return (
         <>
-            <div>
+            <div className="flex flex-row">
                 <HeadingOne>Fleet Management</HeadingOne>
                 <BlueButton>Add Asset</BlueButton>
             </div>

@@ -9,28 +9,7 @@ function App() {
   const toggle = () => {
     setIsOpen(!isOpen)
   }
-  const GridStyles = styled.div`
-  display: grid;
-  grid-template-columns: 250px 1fr;
-  grid-template-rows: 50px 1fr 50px;
-  grid-template-areas: "sidenav header"
-      "sidenav main"
-      "sidenav";
-  
-height: 100vh;
 
-
-  `
-
-  const SideNavGrid = styled.div`
-  grid-area:sidenav ;
-  `
-  const TopNavGrid = styled.div`
-  grid-area:header ;
-  `
-  const FleetGrid = styled.div`
-  grid-area: main;
-  `
 
 
   return (
