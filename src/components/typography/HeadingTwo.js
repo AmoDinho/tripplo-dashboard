@@ -1,9 +1,9 @@
 import React from 'react'
 
-const HeadingTwo = ({ children }) => {
+const HeadingTwo = ({ className, children }) => {
     return (
         <>
-            <h1 className="font-sans text-2xl">{children}</h1>
+            <h1 className={`${className} font-sans text-2xl`}>{children}</h1>
         </>
     )
 }
