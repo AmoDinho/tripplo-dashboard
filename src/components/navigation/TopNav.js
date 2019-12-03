@@ -14,22 +14,28 @@ grid-gap: 0;
 margin-bottom: 10px;
     `
     return (
-        <nav className={isOpen === true ? 'h-12 p-10 bg-gray-300 mb-5 flex flex-row ' : 'h-12 p-10 bg-gray-300 mb-5 flex flex-row  w-screen '}>
+        <nav className={'h-12 p-10 bg-gray-300 mb-5 flex items-center justify-between flex-wrap '}>
+
+            <div className="flex items-center flex-shrink">
+                <span onClick={onClick}>
+                    <img src={Menu} alt="menu" />
+                </span>
+            </div>
 
 
+            <div className="  lg:flex lg:items-start ">
 
 
-            <span onClick={onClick}>
-                <img src={Menu} alt="menu" />
-            </span>
-
-            <SearchBar />
+                <SearchBar />
 
 
-            <img src={Grid} alt="grid" />
-            <img src={Bell} alt="bell" />
-            <Avatar src={User} />
+                <img src={Grid} alt="grid" />
+                <img src={Bell} alt="bell" />
 
+                <Avatar src={User} />
+
+
+            </div>
 
 
 
