@@ -2,7 +2,7 @@ import React from 'react'
 
 const TopNav = ({ children, ...props }) => {
     return (
-        <nav className='p-6 bg-gray-20'>
+        <nav className='h-12 p-10 bg-blue-300 mb-5'>
 
         </nav>
     )
