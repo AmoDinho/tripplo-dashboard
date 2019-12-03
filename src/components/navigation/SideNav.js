@@ -12,7 +12,7 @@ import ClientDropdown from '../dropdowns/ClientDropdown'
 const SideNav = ({ isOpen }) => {
     return (
         <>
-            <div className={isOpen ? 'bg-blue-600 h-screen  lg:w-auto ' : 'hidden'}>
+            <aside className={isOpen ? 'bg-blue-600 h-screen  lg:w-auto ' : 'hidden'}>
 
                 {/* */}
 
@@ -50,7 +50,7 @@ const SideNav = ({ isOpen }) => {
                         </li>
                     </ul>
                 </div>
-            </div>
+            </aside>
         </>
     )
 }
