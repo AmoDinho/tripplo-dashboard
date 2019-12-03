@@ -1,9 +1,11 @@
 import React from 'react'
-import { defaultCipherList } from 'constants'
+
 const Avatar = ({ src, ...props }) => {
     return (
         <>
-            <img src={src} alt='user-avatar' />
+            <img
+                className="rounded-full w-1/5 h-1/5"
+                src={src} alt='user-avatar' />
         </>
     )
 }
