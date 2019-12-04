@@ -19,9 +19,9 @@ const AssetTable = () => {
                             <th>Truck</th>
                             <th>Truck details</th>
                             <th>Driver</th>
-                            <th>Trailer(s)</th>
-                            <th>Status</th>
-                            <th colSpan='2'>Issues</th>
+                            <th className="s:hidden">Trailer(s)</th>
+                            <th className="s:hidden">Status</th>
+                            <th className="s:hidden" colSpan='2'>Issues</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -29,10 +29,10 @@ const AssetTable = () => {
                             <td className="flex lg:flex-row s:flex-col"> <Avatar src={Truck} /> VBZ 122 GP</td>
                             <td> 2005 Frieghtliner Argsoy ISX 530</td>
                             <td> Lovemore Buzuzi</td>
-                            <td> - </td>
-                            <td> <StatusDropdown /></td>
-                            <td> Review 0</td>
-                            <td> Urgent 0</td>
+                            <td className="s:hidden"> - </td>
+                            <td className="s:hidden"> <StatusDropdown /></td>
+                            <td className="s:hidden"> Review 0</td>
+                            <td className="s:hidden"> Urgent 0</td>
                         </tr>
                     </tbody>
 
