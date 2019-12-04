@@ -6,7 +6,7 @@ const AssetRow = () => {
     console.log(assets)
     return (
         <>
-            <div className="flex flex-row ">
+            <div className="flex lg:flex-row s:flex-col">
                 {
                     assets.map(ass => {
                         return (
