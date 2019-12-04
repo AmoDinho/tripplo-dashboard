@@ -10,7 +10,7 @@ const TopNav = ({ onClick, children, ...props }) => {
     return (
         <nav className={'h-16 pb-10 bg-gray-300 mb-5 flex items-center lg:justify-between flex-wrap '}>
 
-            <div className="flex items-center flex-shrink ml-4 ">
+            <div className="flex items-center flex-shrink  ">
                 <span onClick={onClick}>
                     <img src={Menu} alt="menu" />
                 </span>
@@ -24,7 +24,7 @@ const TopNav = ({ onClick, children, ...props }) => {
 
 
                 <img src={Grid} className="ml-8 mr-5 mt-3 s:hidden lg:block" alt="grid" onClick={onClick} />
-                <img src={Bell} className="mr-5 s:ml-3 mt-3" alt="bell" />
+                <img src={Bell} className="lg:mr-5 s:ml-3 mt-3" alt="bell" />
 
                 <Avatar src={User} />
 
