@@ -13,11 +13,13 @@ function App() {
 
 
 
+
+
   return (
     <div className="App">
 
       <div className="header">
-        <TopNav onClick={toggle} />
+        <TopNav onClick={window.innerWidth >= 1280 ? null : toggle} />
       </div>
 
 
