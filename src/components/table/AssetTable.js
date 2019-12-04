@@ -33,8 +33,8 @@ const AssetTable = () => {
                             <td> Lovemore Buzuzi</td>
                             <td className='s:hidden lg:table-cell'> - </td>
                             <td className='s:hidden lg:table-cell'> <StatusDropdown /></td>
-                            <td className='s:hidden lg:table-cell'> Review 0</td>
-                            <td className='s:hidden lg:table-cell'> Urgent 0</td>
+                            <td className='s:hidden lg:table-cell'> Review  <BodyText className='w-4 h-5 text-white text-center bg-gray-500 mr-2 rounded'>0</BodyText></td>
+                            <td className='s:hidden lg:table-cell'> Urgent <BodyText className='w-4 h-5 text-white text-center bg-gray-500 mr-2 rounded'>0</BodyText></td>
                             <td className='s:hidden lg:table-cell'><img src={Drag} alt='drag' /></td>
                         </tr>
                     </tbody>

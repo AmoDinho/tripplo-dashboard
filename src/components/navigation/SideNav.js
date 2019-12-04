@@ -18,7 +18,7 @@ const SideNav = ({ isOpen }) => {
 
                 {/*Tripplo logo */}
 
-                <div className="p-5"><img src={TripploLogo} alt="tripplo logo" /></div>
+                <div className="p-4 mr-5"><img src={TripploLogo} alt="tripplo logo" /></div>
                 {/* customer dropdown*/}
                 <div className="ml-2">
                     <ClientDropdown />

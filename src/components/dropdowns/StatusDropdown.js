@@ -4,10 +4,10 @@ import Dropdown from 'react-bootstrap/Dropdown'
 
 const StatusDropdown = () => {
     return (
-        <Dropdown >
-            <div>Active</div>
-            <Dropdown.Toggle split />
-            <Dropdown.Menu>
+        <Dropdown className='flex flex-row' >
+            <div className='bg-green-600 text-white p-1'>Active</div>
+            <Dropdown.Toggle variant='secondary' split />
+            <Dropdown.Menu >
                 <Dropdown.Item>Active</Dropdown.Item>
                 <Dropdown.Item>Inactive</Dropdown.Item>
                 <Dropdown.Item>Pending</Dropdown.Item>
