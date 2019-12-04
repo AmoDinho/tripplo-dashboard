@@ -12,13 +12,13 @@ import ClientDropdown from '../dropdowns/ClientDropdown'
 const SideNav = ({ isOpen }) => {
     return (
         <>
-            <aside className={isOpen ? 'bg-blue-600 h-screen  lg:w-auto ' : 'hidden'}>
+            <div className={isOpen ? 'bg-blue-600 h-full  lg:w-auto s:w-2/3 ' : 'hidden'}>
 
                 {/* */}
 
                 {/*Tripplo logo */}
 
-                <div className="p-5"><img src={TripploLogo} className="w-1/2 " alt="tripplo logo" /></div>
+                <div className="p-4 mr-5"><img src={TripploLogo} alt="tripplo logo" /></div>
                 {/* customer dropdown*/}
                 <div className="ml-2">
                     <ClientDropdown />
@@ -50,7 +50,7 @@ const SideNav = ({ isOpen }) => {
                         </li>
                     </ul>
                 </div>
-            </aside>
+            </div>
         </>
     )
 }

@@ -4,10 +4,17 @@ module.exports = {
   separator: ':',
   theme: {
     screens: {
-      sm: '640px',
-      md: '768px',
-      lg: '1024px',
-      xl: '1280px',
+      's': '320px',
+      's-max': [{ 'max': '320px' }],
+      'sl': '375px',
+      'sm': '575px',
+      'sm-600': '600px',
+      'sm-land': [{ 'min': '667px' }],
+      'md': '768px',
+      'lg': '992px',
+      'x': '1024px',
+      'lapie': [{ 'min': '1280px', 'max': '1366px' }],
+      'xl': [{ 'min': '1500px' }]
     },
     colors: {
       transparent: 'transparent',
@@ -17,6 +24,7 @@ module.exports = {
 
       gray: {
         100: '#E9E9E5',
+        150: 'rgba(194, 191, 191, 0.2)',
         200: '#edf2f7',
         300: '#e2e8f0',
         400: '#cbd5e0',

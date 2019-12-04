@@ -1,10 +1,13 @@
-.App {
+
+
+  .App {
     display: grid;
-    grid-template-columns: 250px 1fr;
-    grid-template-rows: 50px 1fr 50px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 1fr ;
     grid-template-areas:
-      "sidenav header"
-      "sidenav main";
+      'header'
+      'main'
+      ;
     height: 100vh;
   }
   
@@ -12,11 +15,22 @@
   .header {
     grid-area: header;
     
+    
   }
   
   .sidenav {
     grid-area: sidenav;
-    
+  
+  height: 100%;
+ 
+  position: fixed;
+  overflow-y: auto;
+  
+  transition: all .6s ease-in-out;
+  
+  z-index: 2; /* Needs to sit above the hamburger menu icon */
+  
+   
   }
   
   .main {
@@ -24,4 +38,26 @@
     margin-top: 80px;
     
   }
+
   
+
+  @media only screen and (min-width: 46.875em) {
+   
+.App {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 50px 1fr ;
+    grid-template-areas:
+      "sidenav header"
+      "sidenav main";
+    height: 100vh;
+  }
+
+  .sidenav {
+    position: relative;
+    transform: translateX(0);
+    height: 100%;
+    width: 250px;
+  }
+   
+  }
