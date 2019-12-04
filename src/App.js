@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import styled from 'styled-components'
 import SideNav from './components/navigation/SideNav'
 import TopNav from './components/navigation/TopNav'
 import FleetIndex from './components/fleet/FleetIndex'

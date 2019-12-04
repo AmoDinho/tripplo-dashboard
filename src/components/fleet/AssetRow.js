@@ -11,7 +11,7 @@ const AssetRow = () => {
                     assets.map(ass => {
                         return (
 
-                            <div className="flex flex-col w-2/4 p-5">
+                            <div className="flex flex-col w-2/4 p-5" key={ass.id}>
                                 <AssetCard assetName={ass.assetName} assetColour={ass.assetColour} assetCount={ass.assetCount} />
                                 <AssetWell />
                             </div>

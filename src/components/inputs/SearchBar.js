@@ -1,5 +1,4 @@
 import React from 'react'
-import BodyText from '../typography/BodyText'
 import Search from '../../assets/search.svg'
 const SearchBar = () => {
     return (
