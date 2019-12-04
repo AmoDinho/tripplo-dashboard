@@ -23,7 +23,7 @@ const TopNav = ({ onClick, children, ...props }) => {
                 <SearchBar />
 
 
-                <img src={Grid} className="ml-8 mr-5 mt-3 s:hidden" alt="grid" onClick={onClick} />
+                <img src={Grid} className="ml-8 mr-5 mt-3 s:hidden lg:block" alt="grid" onClick={onClick} />
                 <img src={Bell} className="mr-5  mt-3" alt="bell" />
 
                 <Avatar src={User} />

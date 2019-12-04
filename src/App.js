@@ -21,7 +21,7 @@ function App() {
 
 
   return (
-    <div className='App' onClick={closeAllOnClick}>
+    <div className='App' onClick={window.innerWidth >= 1280 ? null : closeAllOnClick}>
 
       <div className='header'>
         <TopNav onClick={window.innerWidth >= 1280 ? null : toggle} />
