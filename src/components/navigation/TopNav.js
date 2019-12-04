@@ -8,7 +8,7 @@ import User from '../../assets/user.jpg'
 const TopNav = ({ isOpen, onClick, children, ...props }) => {
 
     return (
-        <nav className={'h-16 pb-10 bg-gray-300 mb-5 flex items-center justify-between flex-wrap '}>
+        <nav className={isOpen === true ? 'h-16 pb-10 bg-gray-300 mb-5 flex items-center justify-between flex-wrap ' : 'h-16 pb-10 bg-gray-300 mb-5 flex items-center justify-between flex-wrap '}>
 
             <div className="flex items-center flex-shrink ml-4">
                 <span onClick={onClick}>
@@ -23,7 +23,7 @@ const TopNav = ({ isOpen, onClick, children, ...props }) => {
                 <SearchBar />
 
 
-                <img src={Grid} className="ml-8 mr-5 mt-3 " alt="grid" />
+                <img src={Grid} className="ml-8 mr-5 mt-3 " alt="grid" onClick={onClick} />
                 <img src={Bell} className="mr-5  mt-3" alt="bell" />
 
                 <Avatar src={User} />

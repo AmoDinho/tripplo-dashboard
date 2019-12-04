@@ -16,15 +16,15 @@ function App() {
   return (
     <div className="App">
 
+      <div className="header">
+        <TopNav onClick={toggle} />
+      </div>
 
 
       <div className="sidenav">
         <SideNav isOpen={isOpen} />
       </div>
 
-      <div className="header">
-        <TopNav onClick={toggle} />
-      </div>
 
 
 

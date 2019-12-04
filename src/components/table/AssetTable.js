@@ -26,7 +26,7 @@ const AssetTable = () => {
                     </thead>
                     <tbody>
                         <tr>
-                            <td className="flex flex-row"> <Avatar src={Truck} /> VBZ 122 GP</td>
+                            <td className="flex lg:flex-row s:flex-col"> <Avatar src={Truck} /> VBZ 122 GP</td>
                             <td> 2005 Frieghtliner Argsoy ISX 530</td>
                             <td> Lovemore Buzuzi</td>
                             <td> - </td>
