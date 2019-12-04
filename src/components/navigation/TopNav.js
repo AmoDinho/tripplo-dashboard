@@ -24,7 +24,7 @@ const TopNav = ({ onClick, children, ...props }) => {
 
 
                 <img src={Grid} className="ml-8 mr-5 mt-3 s:hidden lg:block" alt="grid" onClick={onClick} />
-                <img src={Bell} className="mr-5  mt-3" alt="bell" />
+                <img src={Bell} className="mr-5 s:ml-3 mt-3" alt="bell" />
 
                 <Avatar src={User} />
 
