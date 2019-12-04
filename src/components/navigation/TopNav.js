@@ -8,9 +8,9 @@ import User from '../../assets/user.jpg'
 const TopNav = ({ onClick, children, ...props }) => {
 
     return (
-        <nav className={'h-16 pb-10 bg-gray-300 mb-5 flex items-center lg:justify-between flex-wrap '}>
+        <nav className={'h-16 pb-10 bg-gray-300 mb-5 flex items-center lg:justify-between flex-wrap  '}>
 
-            <div className="flex items-center flex-shrink  ">
+            <div className="flex items-center flex-shrink  ml-1 s:mt-3">
                 <span onClick={onClick}>
                     <img src={Menu} alt="menu" />
                 </span>
