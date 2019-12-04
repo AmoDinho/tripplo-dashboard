@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
+import { useOnClickOutside } from './utils/useOnClickOutside'
 import SideNav from './components/navigation/SideNav'
 import TopNav from './components/navigation/TopNav'
 import FleetIndex from './components/fleet/FleetIndex'
@@ -7,6 +8,8 @@ import './styles/App.css'
 
 function App() {
   const [isOpen, setIsOpen] = useState(true)
+  const node = useRef()
+  useOnClickOutside(node, () => setIsOpen(!isOpen))
   const toggle = () => {
     setIsOpen(!isOpen)
   }
@@ -16,14 +19,14 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className='App'>
 
-      <div className="header">
+      <div className='header'>
         <TopNav onClick={window.innerWidth >= 1280 ? null : toggle} />
       </div>
 
 
-      <div className="sidenav">
+      <div className='sidenav'>
         <SideNav isOpen={isOpen} />
       </div>
 
@@ -31,7 +34,7 @@ function App() {
 
 
 
-      <div className="main">
+      <div className='main'>
         <FleetIndex />
       </div>
 
