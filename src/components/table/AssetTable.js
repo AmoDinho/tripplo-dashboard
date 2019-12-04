@@ -3,6 +3,8 @@ import Table from 'react-bootstrap/Table'
 import StatusDropdown from '../dropdowns/StatusDropdown'
 import BodyText from '../typography/BodyText'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Truck from '../../assets/truck.jpg'
+import Avatar from '../user/Avatar'
 const AssetTable = () => {
     return (
         <>
@@ -24,7 +26,7 @@ const AssetTable = () => {
                     </thead>
                     <tbody>
                         <tr>
-                            <td> VBZ 122 GP</td>
+                            <td className="flex flex-row"> <Avatar src={Truck} /> VBZ 122 GP</td>
                             <td> 2005 Frieghtliner Argsoy ISX 530</td>
                             <td> Lovemore Buzuzi</td>
                             <td> - </td>
