@@ -11,7 +11,7 @@ const AssetTable = () => {
                     <div className='bg-blue-700 w-1/12 h-16 rounded-t text-center p-3'> <BodyText className="text-white">Truks</BodyText></div>
                     <diV className='bg-blue-200 w-full h-16 rounded-t p-3 p-3 '> <BodyText className="text-gray-600 ">Issues</BodyText></diV>
                 </div>
-                <Table>
+                <Table responsive>
                     <thead>
                         <tr>
                             <th>Truck</th>
