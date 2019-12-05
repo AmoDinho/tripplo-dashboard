@@ -35,7 +35,7 @@ $ yarn start
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Things to consider:
+### Things to consider:
 
 * approah for different browsers - Weird beahviour in chrome and needs more testing with actual devices. I would use AWS Device farm to achieve a sustainable solution. 
 * advanced components: `<ClientDropdown/> && <StatusDropdown/> ` Need a bit more adavanced logic incorporated into them. 
@@ -48,3 +48,13 @@ Things to consider:
 
 * Images are loaded locally and not from a CDN. Would also need to implement a stratgey to lazy load them or use a placeholder image.
 * No Testing coverage, The components that would need tests are: `<ClientDropdown/> && <StatusDropdown/> && <App/>` - these components need to be able to accept props that is coupled with dynamic business logic.  
+
+### Browser Related Issues
+
+*Firefox* 
+
+
+*Chrome*
+
+*Edge*
+
