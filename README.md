@@ -51,10 +51,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### Browser Related Issues
 
+Each of these three browsers has an issue with the `<TopNav/>` at a 320px viewport width. So that means a collapsable Nav drawer needs to be made to  store at least two out of the four objects in the Nav.  
+
 *Firefox* 
 
 
 *Chrome*
 
 *Edge*
+
 
